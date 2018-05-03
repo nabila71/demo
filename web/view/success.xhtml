@@ -6,8 +6,10 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
+    <h:form>
     <h:outputText value="#{patientController.p.patientID}"></h:outputText> <h:outputText value=" ,Your ID is #{patientController.p.patientName}"></h:outputText>
     <br></br><h:outputText value= "welcome to our hospital" ></h:outputText><br></br>
-    <h:commandButton value="Appointment" action="#{appointmentController.isNextPage2}"></h:commandButton>
+    <h:commandButton value="Appointment" action="#{appointmentController.isNextPage}"></h:commandButton>
+    </h:form>
 </f:view>
 </html>

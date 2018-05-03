@@ -6,6 +6,8 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
-    <h:outputText value="#{appointmentController.a.main()}"></h:outputText>
+<h:form>
+    <h:commandButton value="Select Catagory" action="#{appointmentController.isNextPage}"></h:commandButton>
+</h:form>
 </f:view>
 </html>

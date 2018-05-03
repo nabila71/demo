@@ -13,10 +13,12 @@
 </navigation-rule>
     <navigation-rule>
     <from-view-id>../view/success.xhtml</from-view-id>
+
     <navigation-case>
-        <from-action>#{appointmentController.isNextPage2}</from-action>
+        <from-action>#{appointmentController.isNextPage}</from-action>
         <from-outcome>appointment</from-outcome>
         <to-view-id>../view/appointment.xhtml</to-view-id>
     </navigation-case>
     </navigation-rule>
+
 </faces-config>

@@ -16,7 +16,7 @@ public class appointmentController {
     public void setA(appointment a) {
         this.a = a;
     }
-    public String isNextPage2(){
+    public String isNextPage(){
         return "appointment";
     }
 }
