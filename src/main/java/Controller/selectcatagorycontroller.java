@@ -16,7 +16,6 @@ public class selectcatagorycontroller {
         this.sc = sc;
     }
     public String isNextPage(){
-        return "selectcatagory"
-    };
-
+        return "selectcatagory";
+    }
 }
