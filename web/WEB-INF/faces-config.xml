@@ -20,5 +20,13 @@
         <to-view-id>../view/appointment.xhtml</to-view-id>
     </navigation-case>
     </navigation-rule>
+    <navigation-rule>
+        <from-view-id>../view/appointment.xhtml </from-view-id>
+        <navigation-case>
+            <from-action>#{selectcatagorycontroller.isNextPage}</from-action>
+            <from-outcome>appointment</from-outcome>
+            <to-view-id>../view/appointment.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
 
 </faces-config>
