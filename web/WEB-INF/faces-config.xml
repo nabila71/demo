@@ -30,4 +30,12 @@
         </navigation-case>
     </navigation-rule>
 
+    <navigation-rule>
+        <from-view-id>../view/selectcatagory.xhtml </from-view-id>
+        <navigation-case>
+            <from-action>#{selectcatagorycontroller.isNextPage}</from-action>
+            <from-outcome>catagories</from-outcome>
+            <to-view-id>../view/catagories.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
 </faces-config>
