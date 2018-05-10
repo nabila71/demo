@@ -6,14 +6,13 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
+<h:form>
 
-<h:selectOneMenu value="">
-    <f:selectItem itemValue="Cardiology" itemLabel="Cardiology" ></f:selectItem>
-    <f:selectItem itemValue="Child Specialist" itemLabel="Child Specialist"></f:selectItem>
-    <f:selectItem itemValue="Gynacologist" itemLabel="Gynacologist"></f:selectItem>
+    <h:commandButton value="Cardiology" action="#{catagorescontroller.isNextPage}"></h:commandButton>
+    <h:commandButton value="Child Specialist" action="#{catagorescontroller.isNextPage}"></h:commandButton>
+    <h:commandButton value="Gynacologist" action="#{catagorescontroller.isNextPage}"></h:commandButton>
 
-</h:selectOneMenu>
-    <h:commandButton value="next" action="#{catagorescontroller.isNextPage}"></h:commandButton>
+</h:form>
 </f:view>
 </html>
 
