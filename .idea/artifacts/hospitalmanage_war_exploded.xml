@@ -9,6 +9,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.16" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.16" />
+          <element id="file-copy" path="H:/ojdbc7.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="hospitalmanage/web/Web" />

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:outputLabel value="Hello, world"/>
+
+<h:form>
+    <h:outputLabel for="FirstName">
+        <h:outputText value="firstname: "></h:outputText>
+        <h:inputText id="FirstName" value="#{signup.signupmodel.firstname}"></h:inputText>
+    </h:outputLabel>
+    <h:outputLabel for="LastName">
+        <h:outputText value="lastname: "></h:outputText>
+        <h:inputText id="LastName" value="#{signup.signupmodel.lastname}"></h:inputText>
+    </h:outputLabel>
+    <h:outputLabel for="Mailid">
+        <h:outputText value="Mailid: "></h:outputText>
+        <h:inputText id="Mailid" value="#{signup.signupmodel.mailid}"></h:inputText>
+    </h:outputLabel>
+    <h:outputLabel for="Password">
+        <h:outputText value="Password: "></h:outputText>
+        <h:inputText id="Password" value="#{signup.signupmodel.password}"></h:inputText>
+    </h:outputLabel>
+    <h:outputLabel for="Mobilenum">
+        <h:outputText value="Mobilenum: "></h:outputText>
+        <h:inputText id="Mobilenum" value="#{signup.signupmodel.mobilenum}"></h:inputText>
+    </h:outputLabel>
+
+    <h:commandButton value="enter" action="#{signup.viewApp}"></h:commandButton>
+</h:form>
+</f:view>
+</html>

@@ -8,7 +8,12 @@ public class CategoryControoler {
         Category category = new Category();
         category.setCategoryId(1);
         category.setCategoryName("Cardiologist");
+        category.setCategoryId(2);
+        category.setCategoryName("a");
+        category.setCategoryId(2);
+        category.setCategoryName("n");
         categories.add(category);
+
         return categories;
 }
 }

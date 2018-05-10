@@ -37,5 +37,16 @@
             <from-outcome>catagories</from-outcome>
             <to-view-id>../view/catagories.xhtml</to-view-id>
         </navigation-case>
+
+        <navigation-case>
+            <from-action>#{signup.viewApp}</from-action>
+            <from-outcome>successreg</from-outcome>
+            <to-view-id>../view/successreg.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-action>#{signup.viewApp}</from-action>
+            <from-outcome>fail</from-outcome>
+            <to-view-id>../view/fail.xhtml</to-view-id>
+        </navigation-case>
     </navigation-rule>
 </faces-config>
